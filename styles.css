@@ -1,1 +1,40 @@
 /* your code here */
+*{
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+img{
+    width: 50px;
+}
+.top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+.media-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.link-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-details{
+	display:flex;
+	justify-content: space-between;
+	background-color:grey;
+	width: 100%;
+    padding: 20px;
+}
+a{
+	 text-decoration: none;
+}
